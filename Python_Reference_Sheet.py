@@ -27,9 +27,6 @@ len(my_tuple)
 # This throws an error
 # my_tuple.append()
 
-
-
-
 ##### Sets
 my_set= {1,2,3,3,2,1}
 my_set
@@ -58,16 +55,10 @@ n2 = name[10:]
 n1, n2
 
 
-# #### More in  formating
+#### More in  formating
 
 'My ticket number is: ' + str(131)
-
-
-
 f'My number is: {5}'
-
-
-
 f'My number is {5}, and twice that is {2*5}'
 
 
