@@ -19,13 +19,30 @@ my_list.append(4)
 my_list
 
 
-# #### Tuple
+# #### Tuple : Tuples ar immutable, we cannot add anthimg to a tuble that ie beign already created.
 # ##### Tuples are best for storing x-y coordinates or indexes. They are memory efficient.
 my_tuple = (12, 'car', 'dog')
 len(my_tuple)
 
 # This throws an error
 # my_tuple.append()
+
+# MORE ON LISTS
+#introducing few more flexible properties of Lists.
+# The power comes with slicing.
+myList = list(range(100))
+myList[::10]
+myList[::-10]
+
+# using inesrt, the first element is a position. so, we are intersitng at 3rd position
+myList=myList[0:100:50]
+myList.insert(3, 345)
+myList    
+
+### remove works in similar fashion as append.
+
+myList.remove(345)
+
 
 ##### Sets
 my_set= {1,2,3,3,2,1}
@@ -56,33 +73,51 @@ n1, n2
 
 
 #### More in  formating
+import math
+f'TT(pi) = {math.pi:.2f}'
 
 'My ticket number is: ' + str(131)
 f'My number is: {5}'
 f'My number is {5}, and twice that is {2*5}'
 
-
-
-import math
-
-
-
-
-f'TT(pi) = {math.pi:.2f}'
-
-
-# #### Python BYTE object
-
-
+#### Python BYTE object
 bytes(4)
-
-
 ThumbsUpBytes = bytes('👍', 'utf-8')
 ThumbsUpBytes
-
-
-
 ThumbsUpBytes.decode('utf-8')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
