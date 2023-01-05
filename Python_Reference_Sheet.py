@@ -43,15 +43,18 @@ myList
 
 myList.remove(345)
 
-
-##### Sets
-my_set= {1,2,3,3,2,1}
+##### Sets: every value must be unique
+##### order doesn't matter
+my_set = {1,2,3,3,2,1}
 my_set
 
 another_set = {9,8,7,345,"set"}
 another_set
 
+# we can add an element by using add() statment.
+my_set.add(5)
 
+my_set.discard(5  )
 #### Dictionaries
 #### These are different types of datatypes, which stores key value pairs in Python.
 
@@ -71,11 +74,9 @@ n1 =name[0:10]
 n2 = name[10:]
 n1, n2
 
-
 #### More in  formating
 import math
 f'TT(pi) = {math.pi:.2f}'
-
 'My ticket number is: ' + str(131)
 f'My number is: {5}'
 f'My number is {5}, and twice that is {2*5}'
@@ -87,7 +88,7 @@ ThumbsUpBytes
 ThumbsUpBytes.decode('utf-8')
 
 
-
+#### 
 
 
 
